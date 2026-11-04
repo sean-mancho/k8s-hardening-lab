@@ -25,7 +25,7 @@ that post. Titles of upcoming posts may change.
 | # | Date | Post | CKS domain | Code |
 |---|---|---|---|---|
 | 0 | 2026-10-22 | [I Passed the CKS. Now I'm Hardening My Own Cluster.](https://dev.to/seanmancho/i-passed-the-cks-now-im-hardening-my-own-cluster-em7) | Overview | — |
-| 1 | 2026-11-03 | Building a Private Kubernetes Lab on AWS | Cluster Setup | `infra/` |
+| 1 | 2026-11-03 | [Building a Private Kubernetes Lab on AWS](https://dev.to/seanmancho/building-a-private-kubernetes-lab-on-aws-15kc) | Cluster Setup | `infra/` |
 | 2 | 2026-11-10 | Scoring a Fresh Cluster with kube-bench | Cluster Setup | |
 | 3 | 2026-11-17 | Locking Down API Access | Cluster Hardening | |
 | 4 | 2026-12-01 | Upgrading the Cluster | Cluster Hardening | |

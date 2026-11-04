@@ -1,6 +1,6 @@
 ---
 title: "Building a Private Kubernetes Lab on AWS"
-published: false
+published: true
 description: "A private two-node kubeadm cluster on AWS with OpenTofu: no public nodes, one edge instance as bastion and NAT, private by default from the first boot."
 series: Hardening Kubernetes from Scratch
 tags: kubernetes, security, aws, opentofu
