@@ -1,6 +1,6 @@
 ---
 title: "I Passed the CKS. Now I'm Hardening My Own Cluster."
-published: false
+published: true
 description: "What the CKS exam is really like, how I studied, what the retakes taught me, and the hands-on series that comes next."
 series: Hardening Kubernetes from Scratch
 tags: kubernetes, security, certification, career
@@ -74,4 +74,4 @@ The schedule is in the repo, and the code lands there with each post: [github.co
 - **[The Kubernetes docs](https://kubernetes.io/docs/home/).** My home base, both while studying and during the exam. The concept pages explain the *why* behind each feature really thoroughly, and the task pages are full of YAML manifests you can copy as a starting template. That made them my quickest reference when I needed a NetworkPolicy or a SecurityContext in a hurry.
 - **[Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower.** It really makes you think about how a cluster fits together. There's no kubeadm or bootstrapping tool doing the work for you, so you set up every piece yourself: the certificates, etcd, the control plane and the kubelets. Once you've wired it up by hand, it's much clearer what kubeadm automates and where things can go wrong.
 
-See you next Tuesday, when we build the lab.
+Next up: building the lab.

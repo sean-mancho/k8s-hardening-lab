@@ -1,0 +1,20 @@
+terraform {
+  required_version = ">= 1.5"
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 6.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = var.region
+  default_tags {
+    tags = {
+      Project   = "cks-lab"
+      ManagedBy = "opentofu"
+      Repo      = "sean-mancho/k8s-hardening-lab"
+    }
+  }
+}
